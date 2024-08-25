@@ -1,0 +1,19 @@
+/* src/index.css */
+#wrapper {
+  display: flex;
+  width: 100%;
+}
+
+#sidebar-wrapper {
+  width: 250px;
+}
+
+#page-content-wrapper {
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  #sidebar-wrapper {
+    width: 100%;
+  }
+}

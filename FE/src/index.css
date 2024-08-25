@@ -1,0 +1,142 @@
+.container {
+  margin-top: 20px;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+body {
+  background-color: #f8f9fa;
+}
+
+nav{
+  text-align: center;
+}
+
+
+
+/* Container untuk slider */
+.home-container {
+  padding: 0;
+  /* Menghilangkan padding default agar slider pas di container */
+  max-width: 100%;
+  /* Agar container slider tidak lebih lebar dari viewport */
+}
+
+/* Styling untuk carousel */
+.home-carousel {
+  /* Tambahkan styling tambahan di sini jika diperlukan */
+}
+
+/* Styling untuk gambar slider */
+.carousel-image {
+  height: 400px;
+  /* Atur tinggi gambar slider sesuai kebutuhan */
+  object-fit: cover;
+  /* Agar gambar mengisi area slider dengan baik */
+}
+
+/* Styling untuk caption slider */
+.carousel-caption-custom {
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Latar belakang semi-transparan untuk caption */
+  color: white;
+  /* Warna teks caption */
+  bottom: 20px;
+  /* Jarak caption dari bawah gambar */
+  text-align: center;
+  /* Menyusun teks caption di tengah */
+  padding: 10px;
+  /* Ruang di sekitar teks caption */
+}
+
+/* Styling untuk teks caption */
+.carousel-caption-custom h3 {
+  font-size: 1.5rem;
+  /* Ukuran font untuk judul caption */
+  margin-bottom: 0.5rem;
+  /* Jarak bawah untuk judul caption */
+}
+
+.carousel-caption-custom p {
+  font-size: 1rem;
+  /* Ukuran font untuk teks caption */
+}
+
+.card-img-top {
+  height: 200px;
+  /* Atur tinggi gambar sesuai kebutuhan */
+  object-fit: cover;
+  /* Agar gambar tetap terpusat dan proporsional */
+}
+
+.destination-card {
+  position: relative;
+  cursor: pointer;
+}
+
+.img-container {
+  position: relative;
+}
+
+.destination-img {
+  transition: 0.3s;
+}
+
+.img-container:hover .destination-img {
+  filter: brightness(50%);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: 0.3s ease;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.img-container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+destination-img {
+  transition: 0.3s;
+  width: 100%;
+  /* Pastikan gambar memenuhi lebar kontainer */
+  height: auto;
+  /* Menjaga proporsi gambar */
+}
+
+.destination-card img {
+  height: 200px;
+  /* Tinggi gambar sesuai kebutuhan */
+  object-fit: cover;
+  /* Menjaga proporsi gambar dan menyesuaikan ukuran */
+}
+
+.booked-label {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(255, 0, 0, 0.8);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+}
